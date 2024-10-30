@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Überprüfe, ob Git installiert ist
+if ! command -v git &> /dev/null; then
+    echo "Git wird installiert..."
+    brew install git
+else
+    echo "Git ist bereits installiert."
+fi
+
 # Zielverzeichnisse
 CONFIG_DIR="$HOME/.config/nvim"
 PLUGGED_DIR="$CONFIG_DIR/plugged"
@@ -42,6 +50,9 @@ Plug 'nvim-lua/plenary.nvim'
 
 " Dateiexplorer
 Plug 'kyazdani42/nvim-tree.lua'
+
+" Git-Integration
+Plug 'tpope/vim-fugitive'
 
 " Syntax-Highlighting und Autocompletion
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

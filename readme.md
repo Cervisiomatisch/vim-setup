@@ -53,17 +53,18 @@ Die zentrale Konfigurationsdatei (init.vim) wird unter ~/.config/nvim/init.vim e
 
 2. Plugins
 
-Plugin	Funktion
-nvim-tree.lua	Dateiexplorer
-nvim-treesitter	Syntax-Highlighting und Codeformatierung
-nvim-lspconfig	Konfiguration des LSP (Language Server Protocol)
-nvim-cmp	Autocompletion-Framework
-LuaSnip	Code-Snippets
-mason.nvim und mason-lspconfig.nvim	Automatische Installation von Sprachservern
-nvim-spectre	Erweiterte Such- und Ersetz-Funktion
-lualine.nvim	Anpassbare Statuszeile
-plenary.nvim	Hilfsbibliothek, erforderlich für nvim-spectre
-gruvbox	Farbschema für besseren Kontrast und Übersichtlichkeit
+| Plugin                              |Funktion
+|-------------------------------------|--------------------------------------------------------|
+| nvim-tree.lua                       | Dateiexplorer                                          |
+| nvim-treesitter                     | Syntax-Highlighting und Codeformatierung               |
+| nvim-lspconfig                      | Konfiguration des LSP (Language Server Protocol)       |
+| nvim-cmp                            | Autocompletion-Framework                               |
+| LuaSnip                             | Code-Snippets                                          |
+| mason.nvim und mason-lspconfig.nvim | Automatische Installation von Sprachservern            |
+| nvim-spectre                        | Erweiterte Such- und Ersetz-Funktion                   |
+| lualine.nvim                        | Anpassbare Statuszeile                                 |
+| plenary.nvim                        | Hilfsbibliothek, erforderlich für nvim-spectre         |
+| gruvbox                             | Farbschema für besseren Kontrast und Übersichtlichkeit |
 
 3. Automatisch installierte Sprachserver
 

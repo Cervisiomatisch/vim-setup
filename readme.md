@@ -88,12 +88,14 @@ Beispielskript-Inhalt
 
 Hier ist der Aufbau des Skripts für eine schnelle Referenz:
 
+```bash
 #!/bin/bash
 
 # Git und Neovim installieren (falls erforderlich)
 # Verzeichnisstruktur und zentrale init.vim erstellen
 # Plugins mit vim-plug konfigurieren und installieren
 # Individuelle Plugin-Konfigurationen in separate Dateien schreiben
+```
 
 Häufige Probleme und Lösungen
 

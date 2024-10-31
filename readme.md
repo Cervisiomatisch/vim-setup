@@ -2,6 +2,8 @@
 
 Dieses Repository enthält ein Bash-Skript, das eine vollständige Entwicklungsumgebung für Neovim auf macOS einrichtet. Das Skript installiert Neovim, Git und eine Sammlung von Plugins für die Softwareentwicklung in Python, C, C++ und Java. Die Konfiguration verbessert die visuelle Darstellung und Funktionalität von Neovim, inklusive Dateiexplorer, Syntax-Highlighting, Autocompletion, LSP-Unterstützung und mehr.
 
+![nvim preview](preview.png)
+
 Funktionen
 
 	•	Automatische Installation von Neovim und Git (falls nicht installiert)

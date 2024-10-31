@@ -21,23 +21,26 @@ Voraussetzungen
 
 Installation
 
-	1.	Klonen Sie das Repository:
+
+1.	Klonen des Repository:
 ```bash
-git clone https://github.com/username/repository-name.git
-cd repository-name
+git clone https://github.com/Cervisiomatisch/vim-setup.git
+cd vim-setup
 ```
 
-	2.	Skript ausführbar machen:
+
+2.	Skript ausführbar machen:
 ```bash
 chmod +x setup_nvim.sh
 ```
 
-	3.	Skript ausführen:
+
+3.	Skript ausführen:
 ```bash
 ./setup_nvim.sh
 ```
 
-Während des Skriptlaufs werden Sie gefragt, ob Sie eine saubere Installation von Neovim wünschen. Bei Auswahl von “j” wird die bestehende Konfiguration gelöscht und eine neue eingerichtet. Bei Auswahl von “n” wird die bestehende Konfiguration um die neuen Plugins und Einstellungen ergänzt.
+Während des Skriptlaufs wird gefragt, ob eine saubere Installation von Neovim wünschen. Bei Auswahl von “j” wird die bestehende Konfiguration gelöscht und eine neue eingerichtet. Bei Auswahl von “n” wird die bestehende Konfiguration um die neuen Plugins und Einstellungen ergänzt.
 
 Konfigurationen und Plugins
 
@@ -65,6 +68,7 @@ Die zentrale Konfigurationsdatei (init.vim) wird unter ~/.config/nvim/init.vim e
 | lualine.nvim                        | Anpassbare Statuszeile                                 |
 | plenary.nvim                        | Hilfsbibliothek, erforderlich für nvim-spectre         |
 | gruvbox                             | Farbschema für besseren Kontrast und Übersichtlichkeit |
+| Git                                 | Für Gitverwaltung                                      |
 
 3. Automatisch installierte Sprachserver
 
